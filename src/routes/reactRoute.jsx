@@ -23,6 +23,13 @@ import Pagination from "../components/Pagination/Pagination";
 import MenuList from "../components/MenuList/MenuList";
 import Tooltip from "../components/Elements/Tooltip/Tooltip";
 import Table from "../components/Table/Table";
+import Collapse from "../components/Collapse/Collapse";
+import Tab from "../components/Tab/Tab";
+import Popover from "../components/Popover/Popover";
+import Modal from "../components/Modal/Modal";
+import Drawer from "../components/Drawer/Drawer";
+import Steps from "../components/Steps/Steps";
+import Timeline from "../components/Timeline/Timeline";
 
 export const reactRoute = createBrowserRouter([
   {
@@ -104,40 +111,40 @@ export const reactRoute = createBrowserRouter([
     element: <Components />,
     children: [
       {
-        path: "collapse",
+        path: "accordion",
         element: <Accordion />,
       },
       {
-        path: "tab",
-        element: <Accordion />,
+        path: "Collapse",
+        element: <Collapse />,
       },
       {
-        path: "dropdown",
+        path: "Tab",
+        element: <Tab />,
+      },
+      {
+        path: "Dropdown",
         element: <Dropdown />,
       },
       {
-        path: "popover",
-        element: <Accordion />,
+        path: "Popover",
+        element: <Popover />,
       },
       {
-        path: "modal",
-        element: <Accordion />,
+        path: "Modal",
+        element: <Modal />,
       },
       {
-        path: "drawer",
-        element: <Accordion />,
+        path: "Drawer",
+        element: <Drawer />,
       },
       {
-        path: "steps",
-        element: <Accordion />,
+        path: "Steps",
+        element: <Steps />,
       },
       {
-        path: "timeline",
-        element: <Accordion />,
-      },
-      {
-        path: "pagination",
-        element: <Pagination />,
+        path: "Timeline",
+        element: <Timeline />,
       },
       {
         path: "menu-list",

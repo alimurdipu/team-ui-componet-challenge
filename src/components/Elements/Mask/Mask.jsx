@@ -1,8 +1,14 @@
 import React from 'react'
+import SquirealMask from './SquirealMask'
+import ReuleauxTriangleMask from './ReuleauxTriangleMask'
+
 
 const Mask = () => {
   return (
-    <div>Mask</div>
+    <div>
+     <SquirealMask />
+     <ReuleauxTriangleMask />
+    </div>
   )
 }
 
