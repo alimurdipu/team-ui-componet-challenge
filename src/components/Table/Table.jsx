@@ -1,11 +1,9 @@
 import React from "react";
+import BasicTable from "./BasicTable";
 
 const Table = () => {
-  return <div>
-    <h1>This is Table</h1>
-    <hr />
-    <p>Alimur Dipu</p>
-
+  return <div className="flex flex-col m-10 gap-5">
+    <BasicTable/>
   </div>;
 };
 

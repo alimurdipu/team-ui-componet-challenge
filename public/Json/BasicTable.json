@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "job": "Software Engineer",
+      "favorite_color": "Blue"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "job": "Graphic Designer",
+      "favorite_color": "Green"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "job": "Marketing Manager",
+      "favorite_color": "Red"
+    },
+    {
+      "id": 4,
+      "name": "Bob Williams",
+      "job": "Data Scientist",
+      "favorite_color": "Yellow"
+    }
+  ]
+  

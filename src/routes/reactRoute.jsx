@@ -22,6 +22,7 @@ import Dropdown from "../components/Dropdown/Dropdown";
 import Pagination from "../components/Pagination/Pagination";
 import MenuList from "../components/MenuList/MenuList";
 import Tooltip from "../components/Elements/Tooltip/Tooltip";
+import Table from "../components/Table/Table";
 
 export const reactRoute = createBrowserRouter([
   {
@@ -148,7 +149,7 @@ export const reactRoute = createBrowserRouter([
       },
       {
         path: "table",
-        element: <Accordion />,
+        element: <Table />,
       },
       {
         path: "table-advanced",

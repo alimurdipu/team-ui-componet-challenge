@@ -22,13 +22,13 @@ const ComponentsLink = () => {
       >
         Menu List
       </Link>
-      {/* <Link
-        className="text-white bg-slate-900 py-2 px-5 rounded-sm"
-        to={"/components/button"}
-      >
-        Button
-      </Link>
       <Link
+        className="text-white bg-slate-900 py-2 px-5 rounded-sm"
+        to={"/components/table"}
+      >
+        Table
+      </Link>
+      {/* <Link
         className="text-white bg-slate-900 py-2 px-5 rounded-sm"
         to={"/components/button-group"}
       >
