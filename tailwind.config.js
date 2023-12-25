@@ -57,6 +57,26 @@ export default {
       fontSize: {
         "size-heading": "",
       },
+      keyframes: {
+        progress: {
+          '0%': {
+          width: "0"
+          },
+          '50%': {
+            width: '200px',
+            
+          },
+          '100%': {
+            width: '100%',
+            
+          },
+        },
+      },
+      animation: {
+        pulse: 'progress 5s linear',
+       
+      },
+
     },
   },
   plugins: [],
