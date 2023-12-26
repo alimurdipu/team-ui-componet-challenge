@@ -7,10 +7,12 @@ const SquirealMask = () => {
          <MaskContainer title={'Squircle Mask'} 
       paragraph={"Mask crops the content of the element to common shapes. The mask can crop the shape of squircle. Check out code for detail of usage."}>
       </MaskContainer>
-      <img
+    <div className=' bg-red-200 p-8 h- '>
+    <img
        src={photos}
        className=' h-36 w-36 rounded-[40px]'
        ></img>
+    </div>
     </div>
   )
 }
