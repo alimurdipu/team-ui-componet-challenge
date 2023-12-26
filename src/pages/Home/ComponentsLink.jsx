@@ -6,106 +6,131 @@ const ComponentsLink = () => {
     <>
       <Link
         className="text-white bg-slate-900 py-2 px-5 rounded-sm"
-        to={"/components/pagination"}
+        to={"/components/accordion"}
       >
-        Pagination
+        accordion
+      </Link>
+      <Link
+        className="text-white bg-slate-900 py-2 px-5 rounded-sm"
+        to={"/components/collapse"}
+      >
+        collapse
+      </Link>
+      <Link
+        className="text-white bg-slate-900 py-2 px-5 rounded-sm"
+        to={"/components/tab"}
+      >
+        tab
       </Link>
       <Link
         className="text-white bg-slate-900 py-2 px-5 rounded-sm"
         to={"/components/dropdown"}
       >
-        Dropdown
+        dropdown
+      </Link>
+      <Link
+        className="text-white bg-slate-900 py-2 px-5 rounded-sm"
+        to={"/components/popover"}
+      >
+        popover
+      </Link>
+      <Link
+        className="text-white bg-slate-900 py-2 px-5 rounded-sm"
+        to={"/components/modal"}
+      >
+        modal
+      </Link>
+      <Link
+        className="text-white bg-slate-900 py-2 px-5 rounded-sm"
+        to={"/components/drawer"}
+      >
+        drawer
+      </Link>
+      <Link
+        className="text-white bg-slate-900 py-2 px-5 rounded-sm"
+        to={"/components/steps"}
+      >
+        steps
+      </Link>
+      <Link
+        className="text-white bg-slate-900 py-2 px-5 rounded-sm"
+        to={"/components/timeline"}
+      >
+        timeline
+      </Link>
+      <Link
+        className="text-white bg-slate-900 py-2 px-5 rounded-sm"
+        to={"/components/pagination"}
+      >
+        pagination
       </Link>
       <Link
         className="text-white bg-slate-900 py-2 px-5 rounded-sm"
         to={"/components/menu-list"}
       >
-        Menu List
+        menu-list
+      </Link>
+      <Link
+        className="text-white bg-slate-900 py-2 px-5 rounded-sm"
+        to={"/components/treeview"}
+      >
+        treeview
       </Link>
       <Link
         className="text-white bg-slate-900 py-2 px-5 rounded-sm"
         to={"/components/table"}
       >
-        Table
-      </Link>
-      {/* <Link
-        className="text-white bg-slate-900 py-2 px-5 rounded-sm"
-        to={"/components/button-group"}
-      >
-        Button group
+        table
       </Link>
       <Link
         className="text-white bg-slate-900 py-2 px-5 rounded-sm"
-        to={"/components/badge"}
+        to={"/components/table-advanced"}
       >
-        Badge
+        table-advanced
       </Link>
       <Link
         className="text-white bg-slate-900 py-2 px-5 rounded-sm"
-        to={"/components/breadcrumb"}
+        to={"/components/table-gridjs"}
       >
-        Breadcrumb
+        table-gridjs
       </Link>
       <Link
         className="text-white bg-slate-900 py-2 px-5 rounded-sm"
-        to={"/components/card"}
+        to={"/components/apexcharts"}
       >
-        Card
+        apexcharts
+      </Link>
+
+      <Link
+        className="text-white bg-slate-900 py-2 px-5 rounded-sm"
+        to={"/components/carousel"}
+      >
+        carousel
       </Link>
       <Link
         className="text-white bg-slate-900 py-2 px-5 rounded-sm"
-        to={"/components/divider"}
+        to={"/components/notification"}
       >
-        Divider
+        notification
       </Link>
       <Link
         className="text-white bg-slate-900 py-2 px-5 rounded-sm"
-        to={"/components/mask"}
+        to={"/components/clipboard"}
       >
-        Mask
+        clipboard
       </Link>
       <Link
         className="text-white bg-slate-900 py-2 px-5 rounded-sm"
-        to={"/components/progress"}
+        to={"/components/persist"}
       >
-        Progress
+        persist
       </Link>
       <Link
         className="text-white bg-slate-900 py-2 px-5 rounded-sm"
-        to={"/components/skeleton"}
+        to={"/components/monochrome-mode"}
       >
-        Skeleton
+        monochrome-mode
       </Link>
-      <Link
-        className="text-white bg-slate-900 py-2 px-5 rounded-sm"
-        to={"/components/spinner"}
-      >
-        Spinner
-      </Link>
-      <Link
-        className="text-white bg-slate-900 py-2 px-5 rounded-sm"
-        to={"/components/tag"}
-      >
-        Tag
-      </Link>
-      <Link
-        className="text-white bg-slate-900 py-2 px-5 rounded-sm"
-        to={"/components/tooltip"}
-      >
-        Tooltip
-      </Link>
-      <Link
-        className="text-white bg-slate-900 py-2 px-5 rounded-sm"
-        to={"/components/forms"}
-      >
-        Forms
-      </Link>
-      <Link
-        className="text-white bg-slate-900 py-2 px-5 rounded-sm"
-        to={"/components/typography"}
-      >
-        Typography
-      </Link> */}
     </>
   );
 };

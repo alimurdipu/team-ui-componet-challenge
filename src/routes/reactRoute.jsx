@@ -30,6 +30,16 @@ import Modal from "../components/Modal/Modal";
 import Drawer from "../components/Drawer/Drawer";
 import Steps from "../components/Steps/Steps";
 import Timeline from "../components/Timeline/Timeline";
+import Treeview from "../components/Treeview/Treeview";
+import Table from "../components/Table/Table";
+import TableAdvanced from "../components/TableAdvanced/TableAdvanced";
+import TableGridjs from "../components/TableGridjs/TableGridjs";
+import Apexcharts from "../components/Apexcharts/Apexcharts";
+import Carousel from "../components/Carousel/Carousel";
+import Notification from "../components/Notification/Notification";
+import Clipboard from "../components/Clipboard/Clipboard";
+import Persist from "../components/Persist/Persist";
+import MonochromeMode from "../components/MonochromeMode/MonochromeMode";
 
 export const reactRoute = createBrowserRouter([
   {
@@ -115,36 +125,40 @@ export const reactRoute = createBrowserRouter([
         element: <Accordion />,
       },
       {
-        path: "Collapse",
+        path: "collapse",
         element: <Collapse />,
       },
       {
-        path: "Tab",
+        path: "tab",
         element: <Tab />,
       },
       {
-        path: "Dropdown",
+        path: "dropdown",
         element: <Dropdown />,
       },
       {
-        path: "Popover",
+        path: "popover",
         element: <Popover />,
       },
       {
-        path: "Modal",
+        path: "modal",
         element: <Modal />,
       },
       {
-        path: "Drawer",
+        path: "drawer",
         element: <Drawer />,
       },
       {
-        path: "Steps",
+        path: "steps",
         element: <Steps />,
       },
       {
-        path: "Timeline",
+        path: "timeline",
         element: <Timeline />,
+      },
+      {
+        path: "pagination",
+        element: <Pagination />,
       },
       {
         path: "menu-list",
@@ -152,7 +166,7 @@ export const reactRoute = createBrowserRouter([
       },
       {
         path: "treeview",
-        element: <Accordion />,
+        element: <Treeview />,
       },
       {
         path: "table",
@@ -160,31 +174,35 @@ export const reactRoute = createBrowserRouter([
       },
       {
         path: "table-advanced",
-        element: <Accordion />,
+        element: <TableAdvanced />,
+      },
+      {
+        path: "table-gridjs",
+        element: <TableGridjs />,
       },
       {
         path: "apexcharts",
-        element: <Accordion />,
+        element: <Apexcharts />,
       },
       {
         path: "carousel",
-        element: <Accordion />,
+        element: <Carousel />,
       },
       {
         path: "notification",
-        element: <Accordion />,
+        element: <Notification />,
       },
       {
         path: "clipboard",
-        element: <Accordion />,
+        element: <Clipboard />,
       },
       {
         path: "persist",
-        element: <Accordion />,
+        element: <Persist />,
       },
       {
         path: "monochrome-mode",
-        element: <Accordion />,
+        element: <MonochromeMode />,
       },
     ],
   },
